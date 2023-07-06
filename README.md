@@ -22,7 +22,7 @@ pnpm add -D eslint @huntondemand/eslint-config
 
 ```json
 {
-  "extends": "@antfu"
+  "extends": "@huntondemand"
 }
 ```
 
@@ -84,7 +84,7 @@ Type aware rules are enabled when a `tsconfig.eslint.json` is found in the proje
 process.env.ESLINT_TSCONFIG = 'tsconfig.json'
 
 module.exports = {
-  extends: '@antfu'
+  extends: '@huntondemand'
 }
 ```
 

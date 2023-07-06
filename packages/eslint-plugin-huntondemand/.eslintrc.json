@@ -1,6 +1,6 @@
 {
-  "extends": "@antfu",
+  "extends": "@huntondemand",
   "plugins": [
-    "antfu"
+    "huntondemand"
   ]
 }

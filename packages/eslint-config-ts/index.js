@@ -1,12 +1,12 @@
 const fs = require('node:fs')
 const { join } = require('node:path')
-const basic = require('@antfu/eslint-config-basic')
+const basic = require('@huntondemand/eslint-config-basic')
 
 const tsconfig = process.env.ESLINT_TSCONFIG || 'tsconfig.eslint.json'
 
 module.exports = {
   extends: [
-    '@antfu/eslint-config-basic',
+    '@huntondemand/eslint-config-basic',
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
   ],
@@ -156,10 +156,10 @@ module.exports = {
     '@typescript-eslint/lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
 
     // antfu
-    'antfu/generic-spacing': 'error',
-    'antfu/no-cjs-exports': 'error',
-    'antfu/no-ts-export-equal': 'error',
-    'antfu/no-const-enum': 'error',
+    'huntondemand/generic-spacing': 'error',
+    'huntondemand/no-cjs-exports': 'error',
+    'huntondemand/no-ts-export-equal': 'error',
+    'huntondemand/no-const-enum': 'error',
 
     // off
     '@typescript-eslint/consistent-indexed-object-style': 'off',
