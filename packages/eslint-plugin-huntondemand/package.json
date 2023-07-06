@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-huntondemand-monorepo",
+  "name": "eslint-plugin-huntondemand",
   "version": "0.0.2",
   "license": "MIT",
   "homepage": "https://github.com/huntondemand/eslint-config",
