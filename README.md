@@ -127,7 +127,7 @@ Sure, you can override the rules in your `.eslintrc` file.
 
 ```jsonc
 {
-  "extends": "@antfu",
+  "extends": "@huntondemand",
   "rules": {
     // your rules...
   }

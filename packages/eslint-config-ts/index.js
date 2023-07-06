@@ -155,7 +155,7 @@ module.exports = {
     'lines-between-class-members': 'off',
     '@typescript-eslint/lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
 
-    // antfu
+    // huntondemand
     'huntondemand/generic-spacing': 'error',
     'huntondemand/no-cjs-exports': 'error',
     'huntondemand/no-ts-export-equal': 'error',
