@@ -1,4 +1,4 @@
-# @antfu/eslint-config
+# @huntondemand/eslint-config
 
 [![npm](https://img.shields.io/npm/v/@antfu/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@antfu/eslint-config)
 
@@ -15,7 +15,7 @@
 ### Install
 
 ```bash
-pnpm add -D eslint @antfu/eslint-config
+pnpm add -D eslint @huntondemand/eslint-config
 ```
 
 ### Config `.eslintrc`
